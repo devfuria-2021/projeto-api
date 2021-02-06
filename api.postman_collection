@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "095ab1ab-0c82-47eb-a178-f10cd535f95f",
+		"name": "API´s",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/my-route",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/my-route?foo=1234",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"my-route"
+					],
+					"query": [
+						{
+							"key": "foo",
+							"value": "1234"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
